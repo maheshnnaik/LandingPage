@@ -54,4 +54,5 @@
     flex-direction: column;
     margin: 7px 28px;
 	border: none;
+	cursor: pointer;
 }

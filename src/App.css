@@ -23,10 +23,11 @@
 #menu-dropdown {
 	outline: none;
 	border: 0px;
-	width: 100px;
+	width: 100%;
 	height: 40px;
 	text-align: center;
 	background: inherit;
+	cursor: pointer;
 }
 
 #listlink {
@@ -43,6 +44,10 @@
 
 #listlink a {
 	height: 40px;
+}
+
+#listlink p {
+	cursor: pointer;
 }
 
 .App-header {

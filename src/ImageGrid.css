@@ -49,15 +49,15 @@
 	color: white;
 }
 
-/* .grid-content-button {
-	border: 2px solid #f1efef;
-	background: #d9d8d7;
-} */
+.grid-content-button {
+	cursor: pointer;
+}
 
 .button-text {
 	border: none;
 	background: none;
 	color: white;
+	cursor: pointer;
 }
 
 .button-image {
@@ -77,6 +77,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
+	cursor: pointer;
 }
 
 .grid-content-image {
@@ -90,6 +91,7 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+	border: 3px solid #ffffff;
 }
 
 .second-image {
@@ -98,7 +100,9 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin-right: -5px;
+	position: relative;
+	right: 10px;
+	border: 3px solid #ffffff;
 }
 
 .third-image {
@@ -107,7 +111,9 @@
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	margin-right: -5px;
+	position: relative;
+	right: 20px;
+	border: 3px solid #ffffff;
 }
 
 .button-image-second {
@@ -122,6 +128,7 @@
 	justify-content: space-between;
 	width: 100%;
 	color: #f1efef;
+	cursor: pointer;
 }
 
 .grid-btn span {
