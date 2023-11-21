@@ -1,0 +1,182 @@
+.image-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	gap: 1rem;
+	height: calc(100vh - 150px);
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.first {
+	background: url('./images/first.jpg') no-repeat;
+	background-size: cover;
+}
+
+.second {
+	background: url('./images/second.jpg') no-repeat;
+	background-size: cover;
+}
+
+.third {
+	background: url('./images/third.jpg') no-repeat;
+	background-size: cover;
+}
+
+#number {
+	width: 50px;
+	height: 25px;
+	color: #f8ebfe;
+	border: 2px solid #f8ebfe;
+	border-radius: 25px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 0.9rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-content-first {
+	display: flex;
+	height: 90%;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.grid-content-text {
+	color: white;
+}
+
+/* .grid-content-button {
+	border: 2px solid #f1efef;
+	background: #d9d8d7;
+} */
+
+.button-text {
+	border: none;
+	background: none;
+	color: white;
+}
+
+.button-image {
+	background: url('./images/diagonal-arrow.png') no-repeat;
+	background-size: contain;
+	width: 10px;
+	height: 10px;
+}
+
+.button-container-grid {
+	border: 2px solid #f1efef;
+	border-radius: 10px;
+	background: #d9d8d7;
+	display: flex;
+	flex-direction: row;
+	width: 120px;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.grid-content-image {
+	width: fit-content;
+	display: flex;
+}
+
+.first-image {
+	background: url('./images/first-profile.jpg') no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.second-image {
+	background: url('./images/second-profile.jpg') no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: -5px;
+}
+
+.third-image {
+	background: url('./images/third-profile.jpg') no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: -5px;
+}
+
+.button-image-second {
+	background: url('./images/diagonal-arrow.png') no-repeat;
+	background-size: contain;
+	width: 10px;
+	height: 10px;
+}
+
+.grid-btn {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	color: #f1efef;
+}
+
+.grid-btn span {
+	text-align: left;
+}
+
+.grid-content-second {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 0 20px;
+	height: 90%;
+}
+
+.grid-content-second hr {
+	width: 100%;
+}
+
+.grid-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #f1efef;
+}
+
+.grid-content-third {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: #f1efef;
+	padding: 0 20px;
+	height: 90%;
+}
+
+.grid-text-first {
+	font-size: 4rem;
+}
+
+.grid-text-second {
+	font-size: 1.2rem;
+	width: 50%;
+}
+
+.grid-image-third {
+	background: url('./images/v.png') no-repeat;
+	background-size: contain;
+	width: 30px;
+	height: 30px;
+}
+
+@media (max-width: 480px) {
+	.image-container {
+		grid-template-columns: 1fr;
+		/* width: 80%; */
+		height: 100%;
+	}
+}

@@ -1,0 +1,66 @@
+/* .App {
+	background: url(./images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+} */
+
+#title {
+	color: black;
+	font-weight: bold;
+}
+
+.menu {
+	display: inline-flex;
+	border: 1px solid #cccccc;
+	border-radius: 40px;
+	overflow: hidden;
+	width: 120px;
+	margin: 10px 20px;
+}
+
+#menu-dropdown {
+	outline: none;
+	border: 0px;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background: inherit;
+}
+
+#listlink {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 250px;
+	height: 180px;
+	font-size: 1rem;
+	color: #acadb3;
+	padding-left: 50%;
+}
+
+#listlink a {
+	height: 40px;
+}
+
+.App-header {
+	/* background-color: #282c34; */
+	min-height: 10vh;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+@media (max-width: 480px) {
+	#listlink {
+		display: none;
+		/* position: absolute;
+		width: 100%;
+		text-align: center; */
+	}
+}
