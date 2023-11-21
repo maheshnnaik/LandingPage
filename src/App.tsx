@@ -11,14 +11,14 @@ function App() {
 					<span id='title'>AIPatrn</span>
 				</div>
 				<div id="listlink">
-					<a><p>Home Page</p></a>
-					<a><p>Generator</p></a>
-					<a><p>Pricing-plan</p></a>
-					<a><p>Blog-News</p></a>
-					<a><p>About us</p></a>
-					<a><p>Features</p></a>
-					<a><p>Collection-2023</p></a>
-					<a><p>Career</p></a>
+					<p><a href='http://www.heyMarvin.com' target='_blank'>Home Page</a></p>
+					<p><a href='https://heymarvin.com/solutions/product-design' target='_blank'>Generator</a></p>
+					<p><a href='https://heymarvin.com/pricing' target='_blank'>Pricing-plan</a></p>
+					<p><a href='https://heymarvin.com/product/share' target='_blank'>Blog-News</a></p>
+					<p><a href='https://heymarvin.com/about-us' target='_blank'>About us</a></p>
+					<p><a href='https://heymarvin.com/product/interview-repository' target='_blank'>Features</a></p>
+					<p><a href='http://www.heyMarvin.com' target='_blank'>Collection-2023</a></p>
+					<p><a href='https://heymarvin.com/contact' target='_blank'>Career</a></p>
 
 				</div>
 				<div className='menu'>

@@ -36,18 +36,23 @@
 	align-items: flex-start;
 	flex-direction: column;
 	width: 250px;
-	height: 180px;
+	height: 200px;
 	font-size: 1rem;
 	color: #acadb3;
 	padding-left: 50%;
-}
-
-#listlink a {
-	height: 40px;
+	gap: 0.8rem;
+	padding-top: 5px;
 }
 
 #listlink p {
+	height: 40px;
+	margin: 0;
+}
+
+#listlink a {
 	cursor: pointer;
+	text-decoration: none;
+	color: #acadb3;
 }
 
 .App-header {
