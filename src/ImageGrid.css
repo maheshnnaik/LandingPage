@@ -3,7 +3,6 @@
 	grid-template-columns: 1fr 1fr 2fr;
 	gap: 1rem;
 	height: calc(100vh - 150px);
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
